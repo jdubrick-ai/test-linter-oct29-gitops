@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/instance: "test-linter-oct29-database"
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: "test-linter-oct29-database"
+  name: "test-linter-oct29-database"
+spec:
+  ports:
+    - port: 
+      protocol: TCP
+      targetPort: 
+  selector:
+    app.kubernetes.io/instance: "test-linter-oct29-database"

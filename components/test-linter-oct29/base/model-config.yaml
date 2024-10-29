@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "test-linter-oct29-model-config"
+data:
+  MODEL_ENDPOINT: "http://test-linter-oct29-model-server:8001"
